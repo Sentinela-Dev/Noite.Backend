@@ -14,6 +14,6 @@ public class BCryptProvider : ICryptographys
     {
         var hash = BCrypt.Net.BCrypt.HashPassword(password); ;
 
-        return (hash, "<not-used>");
+        return (hash, hash);
     }
 }
