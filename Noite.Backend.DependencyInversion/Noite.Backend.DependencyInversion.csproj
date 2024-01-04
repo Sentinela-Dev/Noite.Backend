@@ -1,5 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Noite.Backend.Adapters\Noite.Backend.Adapters.csproj" />
+    <ProjectReference Include="..\Noite.Backend.Application\Noite.Backend.Application.csproj" />
+    <ProjectReference Include="..\Noite.Backend.Infra\Noite.Backend.Infra.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
